@@ -1,0 +1,1451 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+
+  <body>
+    <div class="navbar navbar-topbar navbar-expand-xl navbar-light bg-light">
+      <div class="container">
+        <!-- Promo -->
+        <div class="me-xl-8">
+          <i class="fe fe-truck me-2"
+            ><img src="/icons/icons8-free-shipping-24.png" alt=""
+          /></i>
+          <span class="heading-xxxs">Free shipping worldwide</span>
+        </div>
+
+        <!-- Toggler -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#topbarCollapse"
+          aria-controls="topbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Collapse -->
+        <div class="collapse navbar-collapse" id="topbarCollapse">
+          <!-- Nav -->
+          <ul class="nav nav-divided navbar-nav me-auto">
+            <li class="nav-item dropdown hovered">
+              <!-- Toggle -->
+              <a
+                class="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown"
+                href="#"
+                aria-expanded="false"
+              >
+                <img class="mb-1 me-1" src="/icons/pakistan.png" alt="..." />
+                Pakistan
+              </a>
+
+              <!-- Menu -->
+              <div class="dropdown-menu min-w-0">
+                <a class="dropdown-item" href="#!">
+                  <img class="mb-1 me-2" src="/icons/usa.png" alt="" />United
+                  States
+                </a>
+                <a class="dropdown-item" href="#!">
+                  <img class="mb-1 me-2" src="/icons/canada.png" alt="" />Canada
+                </a>
+                <a class="dropdown-item" href="#!">
+                  <img
+                    class="mb-1 me-2"
+                    src="/icons/germany.png"
+                    alt=""
+                  />Germany
+                </a>
+              </div>
+            </li>
+            <li class="nav-item dropdown hovered">
+              <!-- Toggle -->
+              <a
+                class="nav-link dropdown-toggle ab"
+                data-bs-toggle="dropdown"
+                href="#"
+                aria-expanded="false"
+                >USD</a
+              >
+
+              <!-- Menu -->
+              <div class="dropdown-menu min-w-0">
+                <a class="dropdown-item" href="#!">USD</a>
+                <a class="dropdown-item" href="#!">EUR</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown hovered">
+              <!-- Toggle -->
+              <a
+                class="nav-link dropdown-toggle ab"
+                data-bs-toggle="dropdown"
+                href="#"
+                aria-expanded="false"
+                >English</a
+              >
+
+              <!-- Menu -->
+              <div class="dropdown-menu min-w-0">
+                <a class="dropdown-item" href="#">English</a>
+                <a class="dropdown-item" href="#">French</a>
+                <a class="dropdown-item" href="#">German</a>
+              </div>
+            </li>
+          </ul>
+
+          <!-- Nav -->
+          <ul class="nav navbar-nav me-8">
+            <li class="nav-item">
+              <a class="nav-link" href="./shipping-and-returns.html"
+                >Shipping</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./faq.html">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact-us.html">Contact</a>
+            </li>
+          </ul>
+
+          <!-- Nav -->
+          <ul class="nav navbar-nav flex-row">
+            <li class="nav-item mar">
+              <a class="nav-link text-gray-350 img" href="#!">
+                <i><img src="/icons/fb.png" alt="" /></i>
+
+                <!-- <svg class="svg-inline--fa fa-facebook-f" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M279.1 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.4 0 225.4 0c-73.22 0-121.1 44.38-121.1 124.7v70.62H22.89V288h81.39v224h100.2V288z"></path></svg><i class=""><img src="/icons/fb.png" alt=""></i>  -->
+              </a>
+            </li>
+            <li class="nav-item ms-xl-n4">
+              <a class="nav-link text-gray-350 img" href="#!">
+                <i><img src="/icons/tw.png" alt="" /></i>
+                <!-- <svg class="svg-inline--fa fa-twitter" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M459.4 151.7c.325 4.548 .325 9.097 .325 13.65 0 138.7-105.6 298.6-298.6 298.6-59.45 0-114.7-17.22-161.1-47.11 8.447 .974 16.57 1.299 25.34 1.299 49.06 0 94.21-16.57 130.3-44.83-46.13-.975-84.79-31.19-98.11-72.77 6.498 .974 12.99 1.624 19.82 1.624 9.421 0 18.84-1.3 27.61-3.573-48.08-9.747-84.14-51.98-84.14-102.1v-1.299c13.97 7.797 30.21 12.67 47.43 13.32-28.26-18.84-46.78-51.01-46.78-87.39 0-19.49 5.197-37.36 14.29-52.95 51.65 63.67 129.3 105.3 216.4 109.8-1.624-7.797-2.599-15.92-2.599-24.04 0-57.83 46.78-104.9 104.9-104.9 30.21 0 57.5 12.67 76.67 33.14 23.72-4.548 46.46-13.32 66.6-25.34-7.798 24.37-24.37 44.83-46.13 57.83 21.12-2.273 41.58-8.122 60.43-16.24-14.29 20.79-32.16 39.31-52.63 54.25z"></path></svg><i class="fab fa-twitter"></i> Font Awesome fontawesome.com -->
+              </a>
+            </li>
+            <li class="nav-item ms-xl-n4">
+              <a class="nav-link text-gray-350 img" href="#!">
+                <i><img src="/icons/insta.png" alt="" /></i>
+                <!-- <svg class="svg-inline--fa fa-instagram" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg><i class="fab fa-instagram"></i> Font Awesome fontawesome.com -->
+              </a>
+            </li>
+            <li class="nav-item ms-xl-n4">
+              <a class="nav-link text-gray-350 img" href="#!">
+                <i><img src="/icons/md.png" alt="" /></i>
+                <!-- <svg class="svg-inline--fa fa-medium" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="medium" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" data-fa-i2svg=""><path fill="currentColor" d="M180.5 74.26C80.81 74.26 0 155.6 0 256S80.82 437.7 180.5 437.7 361 356.4 361 256 280.2 74.26 180.5 74.26zm288.3 10.65c-49.85 0-90.25 76.62-90.25 171.1s40.41 171.1 90.25 171.1 90.25-76.62 90.25-171.1H559C559 161.5 518.6 84.91 468.8 84.91zm139.5 17.82c-17.53 0-31.74 68.63-31.74 153.3s14.2 153.3 31.74 153.3S640 340.6 640 256C640 171.4 625.8 102.7 608.3 102.7z"></path></svg><i class="fab fa-medium"></i> Font Awesome fontawesome.com -->
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <div class="container">
+        <!-- Brand -->
+        <a class="navbar-brand clr" href="./overview.html">
+          Shopps Your Own.
+        </a>
+
+        <!-- Toggler -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Collapse -->
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <!-- Nav -->
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item dropdown">
+              <!-- Toggle -->
+              <a class="nav-link slr" data-bs-toggle="dropdown" href="#"
+                >Home</a
+              >
+
+              <!-- Menu -->
+              <div class="dropdown-menu">
+                <div class="card card-lg">
+                  <div class="card-body">
+                    <ul class="list-styled fs-sm">
+                      <li class="list-styled-item">
+                        <a class="list-styled-link" href="./index.html"
+                          >Default</a
+                        >
+                      </li>
+                      <li class="list-styled-item">
+                        <a class="list-styled-link" href="./index-classic.html"
+                          >Classic</a
+                        >
+                      </li>
+                      <li class="list-styled-item">
+                        <a class="list-styled-link" href="./index-fashion.html"
+                          >Fashion</a
+                        >
+                      </li>
+                      <li class="list-styled-item">
+                        <a class="list-styled-link" href="./index-boxed.html"
+                          >Boxed</a
+                        >
+                      </li>
+                      <li class="list-styled-item">
+                        <a class="list-styled-link" href="./index-simple.html"
+                          >Simple</a
+                        >
+                      </li>
+                      <li class="list-styled-item">
+                        <a
+                          class="list-styled-link"
+                          href="./index-asymmetric.html"
+                          >Asymmetric</a
+                        >
+                      </li>
+                      <li class="list-styled-item">
+                        <a class="list-styled-link" href="./index-sidenav.html"
+                          >Sidenav</a
+                        >
+                      </li>
+                      <li class="list-styled-item">
+                        <a class="list-styled-link" href="./index-landing.html"
+                          >Landing</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item dropdown position-static">
+              <!-- Toggle -->
+              <a class="nav-link slr" data-bs-toggle="dropdown" href="#"
+                >Catalog</a
+              >
+
+              <!-- Menu -->
+              <div class="dropdown-menu w-100">
+                <!-- Tabs -->
+                <div class="mb-2 mb-lg-0 border-bottom-lg">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-12">
+                        <!-- Nav -->
+                        <nav
+                          class="nav nav-tabs nav-overflow fs-xs border-bottom border-bottom-lg-0"
+                        >
+                          <a
+                            class="nav-link text-uppercase active"
+                            data-bs-toggle="tab"
+                            href="#navTab"
+                          >
+                            Women
+                          </a>
+                          <a
+                            class="nav-link text-uppercase"
+                            data-bs-toggle="tab"
+                            href="#navTab"
+                          >
+                            Men
+                          </a>
+                          <a
+                            class="nav-link text-uppercase"
+                            data-bs-toggle="tab"
+                            href="#navTab"
+                          >
+                            Kids
+                          </a>
+                        </nav>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Tab content -->
+                <div class="card card-lg">
+                  <div class="card-body">
+                    <div class="tab-content">
+                      <div class="tab-pane fade show active" id="navTab">
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-6 col-md">
+                              <!-- Heading -->
+                              <div class="mb-5 fw-bold">Clothing</div>
+
+                              <!-- Links -->
+                              <ul class="list-styled mb-6 mb-md-0 fs-sm">
+                                <li class="list-styled-item">
+                                  <a class="list-styled-link" href="./shop.html"
+                                    >All Clothing</a
+                                  >
+                                </li>
+                                <li class="list-styled-item">
+                                  <a class="list-styled-link" href="./shop.html"
+                                    >Blouses &amp; Shirts</a
+                                  >
+                                </li>
+                                <li class="list-styled-item">
+                                  <a class="list-styled-link" href="./shop.html"
+                                    >Coats &amp; Jackets</a
+                                  >
+                                </li>
+                                <li class="list-styled-item">
+                                  <a class="list-styled-link" href="./shop.html"
+                                    >Dresses</a
+                                  >
+                                </li>
+                                <li class="list-styled-item">
+                                  <a class="list-styled-link" href="./shop.html"
+                                    >Hoodies &amp; Sweats</a
+                                  >
+                                </li>
+                                <li class="list-styled-item">
+                                  <a class="list-styled-link" href="./shop.html"
+                                    >Denim</a
+                                  >
+                                </li>
+                                <li class="list-styled-item">
+                                  <a class="list-styled-link" href="./shop.html"
+                                    >Jeans</a
+                                  >
+                                </li>
+                                <li class="list-styled-item">
+                                  <a class="list-styled-link" href="./shop.html"
+                                    >Jumpers &amp; Cardigans</a
+                                  >
+                                </li>
+                                <li class="list-styled-item">
+                                  <a class="list-styled-link" href="./shop.html"
+                                    >Leggings</a
+                                  >
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="col-6 col-md">
+                              <!-- Heading -->
+                              <div class="mb-5 fw-bold">Shoes &amp; Boots</div>
+
+                              <!-- Links -->
+                              <ul class="list-styled mb-6 mb-md-0 fs-sm">
+                                <li class="list-styled-item">
+                                  <a class="list-styled-link" href="./shop.html"
+                                    >All Shoes &amp; Boots</a
+                                  >
+                                </li>
+                                <li class="list-styled-item">
+                                  <a class="list-styled-link" href="./shop.html"
+                                    >Branded Shoes</a
+                                  >
+                                </li>
+                                <li class="list-styled-item">
+                                  <a class="list-styled-link" href="./shop.html"
+                                    >Boots</a
+                                  >
+                                </li>
+                                <li class="list-styled-item">
+                                  <a class="list-styled-link" href="./shop.html"
+                                    >Heels</a
+                                  >
+                                </li>
+                                <li class="list-styled-item">
+                                  <a class="list-styled-link" href="./shop.html"
+                                    >Trainers</a
+                                  >
+                                </li>
+                                <li class="list-styled-item">
+                                  <a class="list-styled-link" href="./shop.html"
+                                    >Sandals</a
+                                  >
+                                </li>
+                                <li class="list-styled-item">
+                                  <a class="list-styled-link" href="./shop.html"
+                                    >Shoes</a
+                                  >
+                                </li>
+                                <li class="list-styled-item">
+                                  <a class="list-styled-link" href="./shop.html"
+                                    >Wide Fit Shoes</a
+                                  >
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="col-6 col-md">
+                              <!-- Heading -->
+                              <div class="mb-5 fw-bold">
+                                Bags &amp; Accessories
+                              </div>
+
+                              <!-- Links -->
+                              <ul class="list-styled mb-0 fs-sm">
+                                <li class="list-styled-item">
+                                  <a class="list-styled-link" href="./shop.html"
+                                    >All Bags &amp; Accessories</a
+                                  >
+                                </li>
+                                <li class="list-styled-item">
+                                  <a class="list-styled-link" href="./shop.html"
+                                    >Accessories</a
+                                  >
+                                </li>
+                                <li class="list-styled-item">
+                                  <a class="list-styled-link" href="./shop.html"
+                                    >Bags &amp; Purses</a
+                                  >
+                                </li>
+                                <li class="list-styled-item">
+                                  <a class="list-styled-link" href="./shop.html"
+                                    >Luggage</a
+                                  >
+                                </li>
+                                <li class="list-styled-item">
+                                  <a class="list-styled-link" href="./shop.html"
+                                    >Belts</a
+                                  >
+                                </li>
+                                <li class="list-styled-item">
+                                  <a class="list-styled-link" href="./shop.html"
+                                    >Hats</a
+                                  >
+                                </li>
+                                <li class="list-styled-item">
+                                  <a class="list-styled-link" href="./shop.html"
+                                    >Hair Accessories</a
+                                  >
+                                </li>
+                                <li class="list-styled-item">
+                                  <a class="list-styled-link" href="./shop.html"
+                                    >Jewellery</a
+                                  >
+                                </li>
+                                <li class="list-styled-item">
+                                  <a class="list-styled-link" href="./shop.html"
+                                    >Travel Accessories</a
+                                  >
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="col-6 col-md">
+                              <!-- Heading -->
+                              <div class="mb-5 fw-bold">Collections</div>
+
+                              <!-- Links -->
+                              <ul class="list-styled mb-0 fs-sm">
+                                <li class="list-styled-item">
+                                  <a class="list-styled-link" href="./shop.html"
+                                    >All Collections</a
+                                  >
+                                </li>
+                                <li class="list-styled-item">
+                                  <a class="list-styled-link" href="./shop.html"
+                                    >Occasionwear</a
+                                  >
+                                </li>
+                                <li class="list-styled-item">
+                                  <a class="list-styled-link" href="./shop.html"
+                                    >Going Out</a
+                                  >
+                                </li>
+                                <li class="list-styled-item">
+                                  <a class="list-styled-link" href="./shop.html"
+                                    >Workwear</a
+                                  >
+                                </li>
+                                <li class="list-styled-item">
+                                  <a class="list-styled-link" href="./shop.html"
+                                    >Holiday Shop</a
+                                  >
+                                </li>
+                                <li class="list-styled-item">
+                                  <a class="list-styled-link" href="./shop.html"
+                                    >Jean Fit Guide</a
+                                  >
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="col-4 d-none d-lg-block">
+                              <!-- Card -->
+                              <div class="card">
+                                <!-- Image -->
+                                <img
+                                  class="card-img"
+                                  src="./assets/img/products/product-110.jpg"
+                                  alt="..."
+                                />
+
+                                <!-- Overlay -->
+                                <div
+                                  class="card-img-overlay bg-dark-0 bg-hover align-items-center"
+                                >
+                                  <div class="text-center">
+                                    <a
+                                      class="btn btn-white stretched-link"
+                                      href="./shop.html"
+                                    >
+                                      Shop Sweaters
+                                      <i class="fe fe-arrow-right ms-2"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <!-- Toggle -->
+              <a class="nav-link slr" data-bs-toggle="dropdown" href="#"
+                >Shop</a
+              >
+
+              <!-- Menu -->
+              <div class="dropdown-menu" style="min-width: 650px">
+                <div class="card card-lg">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col">
+                        <!-- Heading -->
+                        <div class="mb-5 fw-bold">Shop</div>
+
+                        <!-- Links -->
+                        <ul class="list-styled mb-7 fs-sm">
+                          <li class="list-styled-item">
+                            <a class="list-styled-link" href="./shop.html"
+                              >Default</a
+                            >
+                          </li>
+                          <li class="list-styled-item">
+                            <a
+                              class="list-styled-link"
+                              href="./shop-topbar.html"
+                              >Topbar</a
+                            >
+                          </li>
+                          <li class="list-styled-item">
+                            <a
+                              class="list-styled-link"
+                              href="./shop-collapse.html"
+                              >Collapse</a
+                            >
+                          </li>
+                          <li class="list-styled-item">
+                            <a
+                              class="list-styled-link"
+                              href="./shop-simple.html"
+                              >Simple</a
+                            >
+                          </li>
+                          <li class="list-styled-item">
+                            <a
+                              class="list-styled-link"
+                              href="./shop-masonry.html"
+                              >Masonry</a
+                            >
+                          </li>
+                        </ul>
+
+                        <!-- Heading -->
+                        <div class="mb-5 fw-bold">Product</div>
+
+                        <!-- Links -->
+                        <ul class="list-styled fs-sm">
+                          <li class="list-styled-item">
+                            <a class="list-styled-link" href="./product.html"
+                              >Default</a
+                            >
+                          </li>
+                          <li class="list-styled-item">
+                            <a
+                              class="list-styled-link"
+                              href="./product-images-left.html"
+                              >Images Left</a
+                            >
+                          </li>
+                          <li class="list-styled-item">
+                            <a
+                              class="list-styled-link"
+                              href="./product-image-grid.html"
+                              >Image Grid</a
+                            >
+                          </li>
+                          <li class="list-styled-item">
+                            <a
+                              class="list-styled-link"
+                              href="./product-image-slider.html"
+                              >Image Slider</a
+                            >
+                          </li>
+                          <li class="list-styled-item">
+                            <a
+                              class="list-styled-link"
+                              href="./product-images-stacked.html"
+                              >Images Stacked</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="col">
+                        <!-- Heading -->
+                        <div class="mb-5 fw-bold">Support</div>
+
+                        <!-- Links -->
+                        <ul class="list-styled mb-7 fs-sm">
+                          <li class="list-styled-item">
+                            <a
+                              class="list-styled-link"
+                              href="./shopping-cart.html"
+                              >Shopping Cart</a
+                            >
+                          </li>
+                          <li class="list-styled-item">
+                            <a class="list-styled-link" href="./checkout.html"
+                              >Checkout</a
+                            >
+                          </li>
+                          <li class="list-styled-item">
+                            <a
+                              class="list-styled-link"
+                              href="./order-completed.html"
+                              >Order Completed</a
+                            >
+                          </li>
+                          <li class="list-styled-item">
+                            <a
+                              class="list-styled-link"
+                              href="./shipping-and-returns.html"
+                              >Shipping &amp; Returns</a
+                            >
+                          </li>
+                        </ul>
+
+                        <!-- Heading -->
+                        <div class="mb-5 fw-bold">Account</div>
+
+                        <!-- Links -->
+                        <ul class="list-styled fs-sm">
+                          <li class="list-styled-item">
+                            <a
+                              class="list-styled-link"
+                              href="./account-order.html"
+                              >Order</a
+                            >
+                          </li>
+                          <li class="list-styled-item">
+                            <a
+                              class="list-styled-link"
+                              href="./account-orders.html"
+                              >Orders</a
+                            >
+                          </li>
+                          <li class="list-styled-item">
+                            <a
+                              class="list-styled-link"
+                              href="./account-wishlist.html"
+                              >Wishlist</a
+                            >
+                          </li>
+                          <li class="list-styled-item">
+                            <a
+                              class="list-styled-link"
+                              href="./account-personal-info.html"
+                              >Personal Info</a
+                            >
+                          </li>
+                          <li class="list-styled-item">
+                            <a
+                              class="list-styled-link"
+                              href="./account-address.html"
+                              >Addresses</a
+                            >
+                          </li>
+                          <li class="list-styled-item">
+                            <a
+                              class="list-styled-link"
+                              href="./account-address-edit.html"
+                              >Addresses: New</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="col">
+                        <!-- Links -->
+                        <ul class="list-styled mb-7 fs-sm">
+                          <li class="list-styled-item">
+                            <a
+                              class="list-styled-link"
+                              href="./account-payment.html"
+                              >Payment</a
+                            >
+                          </li>
+                          <li class="list-styled-item">
+                            <a
+                              class="list-styled-link"
+                              href="./account-payment-edit.html"
+                              >Payment: New</a
+                            >
+                          </li>
+                          <li class="list-styled-item">
+                            <a
+                              class="list-styled-link"
+                              href="./account-payment-choose.html"
+                              >Payment: Choose</a
+                            >
+                          </li>
+                          <li class="list-styled-item">
+                            <a class="list-styled-link" href="./auth.html"
+                              >Auth</a
+                            >
+                          </li>
+                        </ul>
+
+                        <!-- Heading -->
+                        <div class="mb-5 fw-bold">Modals</div>
+
+                        <!-- Links -->
+                        <ul class="list-styled fs-sm">
+                          <li class="list-styled-item">
+                            <a
+                              class="list-styled-link"
+                              data-bs-toggle="modal"
+                              href="#modalNewsletterHorizontal"
+                            >
+                              Newsletter: Horizontal
+                            </a>
+                          </li>
+                          <li class="list-styled-item">
+                            <a
+                              class="list-styled-link"
+                              data-bs-toggle="modal"
+                              href="#modalNewsletterVertical"
+                            >
+                              Newsletter: Vertical
+                            </a>
+                          </li>
+                          <li class="list-styled-item">
+                            <a
+                              class="list-styled-link"
+                              data-bs-toggle="modal"
+                              href="#modalProduct"
+                            >
+                              Product
+                            </a>
+                          </li>
+                          <li class="list-styled-item">
+                            <a
+                              class="list-styled-link"
+                              data-bs-toggle="offcanvas"
+                              href="#modalSearch"
+                            >
+                              Search
+                            </a>
+                          </li>
+                          <li class="list-styled-item">
+                            <a
+                              class="list-styled-link"
+                              data-bs-toggle="offcanvas"
+                              href="#modalShoppingCart"
+                            >
+                              Shopping Cart
+                            </a>
+                          </li>
+                          <li class="list-styled-item">
+                            <a
+                              class="list-styled-link"
+                              data-bs-toggle="modal"
+                              href="#modalSizeChart"
+                            >
+                              Size Chart
+                            </a>
+                          </li>
+                          <li class="list-styled-item">
+                            <a
+                              class="list-styled-link"
+                              data-bs-toggle="modal"
+                              href="#modalWaitList"
+                            >
+                              Wait List
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <!-- Toggle -->
+              <a class="nav-link slr" data-bs-toggle="dropdown" href="#"
+                >Pages</a
+              >
+
+              <!-- Menu -->
+              <div class="dropdown-menu">
+                <div class="card card-lg">
+                  <div class="card-body">
+                    <ul class="list-styled fs-sm">
+                      <li class="list-styled-item">
+                        <a class="list-styled-link" href="./about.html"
+                          >About</a
+                        >
+                      </li>
+                      <li class="list-styled-item">
+                        <a class="list-styled-link" href="./contact-us.html"
+                          >Contact Us</a
+                        >
+                      </li>
+                      <li class="list-styled-item">
+                        <a class="list-styled-link" href="./store-locator.html"
+                          >Store Locator</a
+                        >
+                      </li>
+                      <li class="list-styled-item">
+                        <a class="list-styled-link texts" href="./faq.html"
+                          >FAQ</a
+                        >
+                      </li>
+                      <li class="list-styled-item">
+                        <a class="list-styled-link" href="./coming-soon.html"
+                          >Coming Soon</a
+                        >
+                      </li>
+                      <li class="list-styled-item">
+                        <a class="list-styled-link" href="./404.html">404</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <!-- Toggle -->
+              <a class="nav-link slr" data-bs-toggle="dropdown" href="#"
+                >Blog</a
+              >
+
+              <!-- Menu -->
+              <div class="dropdown-menu">
+                <div class="card card-lg">
+                  <div class="card-body">
+                    <ul class="list-styled fs-sm">
+                      <li class="list-styled-item">
+                        <a class="list-styled-link" href="./blog.html">Blog</a>
+                      </li>
+                      <li class="list-styled-item">
+                        <a class="list-styled-link" href="./blog-post.html"
+                          >Blog Post</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link slr" href="docs/getting-started.html">Docs</a>
+            </li>
+          </ul>
+
+          <!-- Side-Nav -->
+          <ul class="navbar-nav flex-row">
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                data-bs-toggle="offcanvas"
+                href="#modalSearch"
+              >
+                <i class="fe fe-search"><img src="/icons/ser.png" alt="" /></i>
+              </a>
+            </li>
+            <li class="nav-item ms-lg-n4">
+              <a class="nav-link" href="./account-orders.html">
+                <i class="fe fe-user"><img src="/icons/users.png" alt="" /></i>
+              </a>
+            </li>
+            <li class="nav-item ms-lg-n4">
+              <a class="nav-link" href="./account-wishlist.html">
+                <i class="fe fe-heart"><img src="/icons/fav.png" alt="" /></i
+              ></a>
+            </li>
+            <li class="nav-item ms-lg-n4">
+              <a
+                class="nav-link"
+                data-bs-toggle="offcanvas"
+                href="#modalShoppingCart"
+              >
+                <span data-cart-items="2">
+                  <i class="fe fe-shopping-cart"
+                    ><img id="modalShoppingCart" src="/icons/cart.png" alt=""
+                  /></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Nav -->
+    <div class="py-3 bg-dark bg-pattern mb-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <!-- Text -->
+            <div class="text-center text-white">
+              <span class="heading-xxs letter-spacing-xl">
+                ⚡️ Happy Holiday Deals on Everything ⚡️
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Catagory -->
+    <!-- <div class="container"> -->
+    <section>
+      <div
+        class="row gx-0 d-block d-lg-flex flickity flickity-lg-none"
+        data-flickity='{"watchCSS": true}'
+      >
+        <!-- Item -->
+        <div
+          class="col-12 col-md-6 col-lg-4 d-flex flex-column bg-cover"
+          style="background-image: url(assets/img/covers/cover-1.jpg)"
+        >
+          <div
+            class="card bg-dark-5 bg-hover text-white text-center bkb"
+            style="min-height: 470px"
+          >
+            <div class="card-body mt-auto mb-n11 py-8">
+              <!-- Heading -->
+              <h1 class="mb-0 fw-bolder text-center">Women</h1>
+            </div>
+            <div class="card-body mt-auto py-8">
+              <!-- Button -->
+              <!-- <a class="btn btn-white stretched-link" href="shop.html">
+  Shop Women <i class="fe fe-arrow-right ms-2"></i>
+</a> -->
+              <button
+                type="button"
+                class="btn btn-light btn-lg stretched-link pp"
+              >
+                Shop Women &#8594;
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card -->
+        <div
+          class="col-12 col-md-6 col-lg-4 d-flex flex-column bg-cover"
+          style="background-image: url(assets/img/covers/cover-2.jpg)"
+        >
+          <div
+            class="card bg-dark-5 bg-hover text-white text-center bka"
+            style="min-height: 470px"
+          >
+            <div class="card-body mt-auto mb-n11 py-8">
+              <!-- Heading -->
+              <h1 class="mb-0 fw-bolder">Men</h1>
+            </div>
+            <div class="card-body mt-auto py-8">
+              <!-- Button -->
+              <!-- <a class="btn btn-white stretched-link" href="shop.html">
+  Shop Men <i class="fe fe-arrow-right ms-2"></i>
+</a> -->
+              <button
+                type="button"
+                class="btn btn-light btn-lg stretched-link pp"
+              >
+                Shop Men &#8594;
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card -->
+        <div class="col-12 col-md-6 col-lg-4 d-flex flex-column bg-cover">
+          <div
+            class="card bg-dark-5 bg-hover text-white text-center bkg"
+            style="min-height: 470px"
+          >
+            <div class="card-body mt-auto mb-n11 py-8">
+              <!-- Heading -->
+              <h1 class="mb-0 fw-bolder">Kids</h1>
+            </div>
+            <div class="card-body mt-auto py-8">
+              <!-- Button -->
+              <!-- <a class="btn btn-white stretched-link" href="shop.html">
+  Shop Kids <i class="fe fe-arrow-right ms-2"></i>
+</a> -->
+              <button
+                type="button"
+                class="btn btn-light btn-lg stretched-link pp"
+              >
+                Shop Kids &#8594;
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+    <!-- Features -->
+    <section class="pt-7">
+      <div class="container">
+        <div class="row pb-7 border-bottom">
+          <div class="col-12 col-md-6 col-lg-3">
+            <!-- Item -->
+            <div class="d-flex mb-6 mb-lg-0">
+              <!-- Icon -->
+              <i class="fe fe-truck fs-lg text-primary "><img class="tags" src="/icons/truck.png" alt=""></i>
+
+              <!-- Body -->
+              <div class="ms-6">
+                <!-- Heading -->
+                <h6 class="heading-xxs mb-1">Free shipping</h6>
+
+                <!-- Text -->
+                <p class="mb-0 fs-sm text-muted">From all orders over $100</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <!-- Item -->
+            <div class="d-flex mb-6 mb-lg-0">
+              <!-- Icon -->
+              <i class="fe fe-repeat fs-lg text-primary "><img class="tags" src="/icons/return.png" alt=""></i>
+
+              <!-- Body -->
+              <div class="ms-6">
+                <!-- Heading -->
+                <h6 class="mb-1 heading-xxs">Free returns</h6>
+
+                <!-- Text -->
+                <p class="mb-0 fs-sm text-muted">Return money within 30 days</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <!-- Item -->
+            <div class="d-flex mb-6 mb-md-0">
+              <!-- Icon -->
+              <i class="fe fe-lock fs-lg text-primary "><img class="tags" src="/icons/lock.png" alt=""></i>
+
+              <!-- Body -->
+              <div class="ms-6">
+                <!-- Heading -->
+                <h6 class="mb-1 heading-xxs">Secure shopping</h6>
+
+                <!-- Text -->
+                <p class="mb-0 fs-sm text-muted">You're in safe hands</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <!-- Item -->
+            <div class="d-flex">
+              <!-- Icon -->
+              <i class="fe fe-tag fs-lg text-primary "><img class="tags" src="/icons/tag.png" alt=""></i>
+
+              <!-- Body -->
+              <div class="ms-6">
+                <!-- Heading -->
+                <h6 class="mb-1 heading-xxs">Over 10,000 Styles</h6>
+
+                <!-- Text -->
+                <p class="mb-0 fs-sm text-muted">We have everything you need</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+                    <!-- Best Pick -->
+                    <section class="pt-12">
+                      <div class="container">
+                        <div class="row justify-content-center">
+                          <div class="col-12 col-md-10 col-lg-8 col-xl-6 text-center">
+                
+                            <!-- Preheading -->
+                            <h6 class="heading-xxs mb-3 text-gray-400">
+                              New Collection
+                            </h6>
+                
+                            <!-- Heading -->
+                            <h2 class="mb-4">Best Picks 2023</h2>
+                
+                            <!-- Subheading -->
+                            <p class="mb-10 text-gray-500">
+                              Appear, dry there darkness they're seas, dry waters thing fly midst. Beast, above fly brought Very green.
+                            </p>
+                
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-12 col-md-5 col-lg-4 d-flex flex-column">
+                
+                            <!-- Card -->
+                            <div class="card mb-7 text-white p1" style="min-height: 400px; background-image: url(assets/img/products/product-1.jpg)">
+                
+                              <!-- Background -->
+                              <div class="card-bg p1">
+                                <div class="card-bg-img bg-cover p1" style="background-image: url(assets/img/products/product-1.jpg);"></div>
+                              </div>
+                
+                              <!-- Body -->
+                              <div class="card-body my-auto text-center">
+                
+                                <!-- Heading -->
+                                <h4 class="mb-0 hd">Bags Collection</h4>
+                
+                                <!-- Link -->
+                                <a class="btn btn-link stretched-link text-reset sn" href="shop.html">
+                                  Shop Now &#8594; <i class="fe fe-arrow-right ms-2"></i>
+                                </a>
+                
+                              </div>
+                
+                            </div>
+                
+                          </div>
+                          <div class="col-12 col-md-7 col-lg-8 d-flex flex-column">
+                
+                            <!-- Card -->
+                            <div class="card mb-7 text-body p2" style="min-height: 400px;">
+                
+                              <!-- Background -->
+                              <div class="card-bg">
+                                <div class="card-bg-img bg-cover" style="background-image: url(assets/img/products/product-2.jpg);"></div>
+                              </div>
+                
+                              <!-- Body -->
+                              <div class="card-body my-auto px-md-10 text-center text-md-start">
+                
+                                <!-- Circle -->
+                                <div class="card-circle card-circle-lg card-circle-end">
+                                  <strong>save</strong>
+                                  <span class="fs-4 fw-bold">30%</span>
+                                </div>
+                
+                                <!-- Heading -->
+                                <h4 class="mb-0 hd">Printed men’s Shirts</h4>
+                
+                                <!-- Link -->
+                                <a class="btn btn-link stretched-link px-0 text-reset sn" href="shop.html">
+                                  Shop Now &#8594;<i class="fe fe-arrow-right ms-2"></i>
+                                </a>
+                
+                              </div>
+                
+                            </div>
+                
+                          </div>
+                          <div class="col-12 col-md-7 col-lg-8 d-flex flex-column">
+                
+                            <!-- Card -->
+                            <div class="card mb-7 mb-md-0 text-body p3" style="min-height: 400px;">
+                
+                              <!-- Background -->
+                              <div class="card-bg">
+                                <div class="card-bg-img bg-cover" style="background-image: url(assets/img/products/product-3.jpg);"></div>
+                              </div>
+                
+                              <!-- Body -->
+                              <div class="card-body my-auto px-md-10 text-center text-md-start">
+                
+                                <!-- Heading -->
+                                <h4 class="mb-0 hd">Basic women’s Dresses</h4>
+                
+                                <!-- Link -->
+                                <a class="btn btn-link stretched-link px-0 text-reset sn" href="shop.html">
+                                  Shop Now &#8594; <i class="fe fe-arrow-right ms-2"></i>
+                                </a>
+                
+                              </div>
+                
+                            </div>
+                
+                          </div>
+                          <div class="col-12 col-md-5 col-lg-4 d-flex flex-column">
+                
+                            <!-- Card -->
+                            <div class="card text-white p4" style="min-height: 400px;">
+                
+                              <!-- Background -->
+                              <div class="card-bg">
+                                <div class="card-bg-img bg-cover" style="background-image: url(assets/img/products/product-4.jpg);"></div>
+                              </div>
+                
+                              <!-- Body -->
+                              <div class="card-body my-auto text-center">
+                
+                                <!-- Heading -->
+                                <h4 class="mb-0 hd">Sweatshirts</h4>
+                
+                                <!-- Link -->
+                                <a class="btn btn-link stretched-link text-reset sn" href="shop.html">
+                                  Shop Now &#8594; <i class="fe fe-arrow-right ms-2"></i>
+                                </a>
+                
+                              </div>
+                
+                            </div>
+                
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+               <!-- Heading -->
+               <h2 class="mb-4 text-center">Top Month Sellers</h2>
+               
+                    <!-- Navs -->
+                    <div class="nav justify-content-center mb-10">
+                      <a class="nav-link active" href="#topSellersTab" data-bs-toggle="tab">Women</a>
+                      <a class="nav-link" href="#topSellersTab" data-bs-toggle="tab">Men</a>
+                      <a class="nav-link" href="#topSellersTab" data-bs-toggle="tab">Kids</a>
+                    </div>
+                    <div class="container">
+                      <div class="card-group">
+                        <div class="card">
+                          <img src="/imgs/product-6.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Dresses</h5>
+                            <p class="card-text">Cotton floral print Dress <br>
+                              </p> 
+                            <p class="card-text"><small class="text-muted"> <s>$30.00</s> &nbsp; $40.00</small></p>
+                            <div class="btn-group">
+                              <button type="button" class="btn btn-sm btn-outline-warning">View</button>
+                              <button type="button" class="btn btn-sm btn-outline-warning">Buy</button>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card" >
+                          <img src="/imgs/product-7.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Shoes</h5>
+                            <p class="card-text">Leather Sneakers <br>
+                              </p>
+                            <p class="card-text"><small class="text-muted"><s>$85.00</s> &nbsp; $80.00</small></p>
+                            <div class="btn-group">
+                              <button type="button" class="btn btn-sm btn-outline-warning">View</button>
+                              <button type="button" class="btn btn-sm btn-outline-warning">Buy</button>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <img src="/imgs/product-10.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Bags
+                              
+                              </h5>
+                            <p class="card-text">Suede cross body Bag <br>
+                            </p>
+                            <p class="card-text"><small class="text-muted"><s>$79.00</s> &nbsp;   $49.00</small></p>
+                            <div class="btn-group">
+                              <button type="button" class="btn btn-sm btn-outline-warning">View</button>
+                              <button type="button" class="btn btn-sm btn-outline-warning">Buy</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                  <!-- Second Nav -->
+                  <div class="container mt">
+                    <div class="card-group">
+                      <div class="card">
+                        <img src="/imgs/product-11.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Skirts</h5>
+                          <p class="card-text">
+                            Printed A-line Skirt
+                            </p> 
+                            <p class="card-text"><small class="text-muted"> <S>$70.00</S> &nbsp;  $79.00</small></p>
+                          <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-warning">View</button>
+                            <button type="button" class="btn btn-sm btn-outline-warning">Buy</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card" >
+                        <img src="/imgs/product-12.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Sandals</h5>
+                          <p class="card-text">Heel strappy Sandals<br>
+                            </p>
+                          <p class="card-text"><small class="text-muted"><s>$90.00</s> &nbsp; $85.00</small></p>
+                          <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-warning">View</button>
+                            <button type="button" class="btn btn-sm btn-outline-warning">Buy</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <img src="/imgs/product-8.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Tops
+                            
+                            </h5>
+                          <p class="card-text">Cropped cotton Top<br>
+                          </p>
+                          <p class="card-text"><small class="text-muted"><s>$99.00</s> &nbsp;   $90.00</small></p>
+                          <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-warning">View</button>
+                            <button type="button" class="btn btn-sm btn-outline-warning">Buy</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <!-- Links -->
+                <div class="mt-7 text-center">
+                  <a class="link-underline un" href="#!">Discover More</a>
+                </div>
+                <!-- countdown -->
+                <section class="py-13 bg-cover tm" style="background-image: url(/imgs/cover-4.jpg)">
+                  <div class="container">
+                    <div class="row justify-content-end">
+                      <div class="col-12 col-md-8 col-lg-6">
+            
+                        <!-- Heading -->
+                        <h3 class="mb-7">
+                          Get -50% from <br>Summer Collection
+                        </h3>
+            
+                        <!-- Counter -->
+                        <div class="d-flex mb-9 " data-countdown="" data-date="Dec 31, 2025 00:00:00">
+                          <div class="text-center">
+                            <div class="fs-1 fw-bolder text-primary" data-days="">1078</div>
+                            <div class="heading-xxs text-muted">Days</div>
+                          </div>
+                          <div class="px-1 px-md-4">
+                            <div class="fs-2 fw-bolder text-primary">:</div>
+                          </div>
+                          <div class="text-center">
+                            <div class="fs-1 fw-bolder text-primary" data-hours="">00</div>
+                            <div class="heading-xxs text-muted">Hours</div>
+                          </div>
+                          <div class="px-1 px-md-4">
+                            <div class="fs-2 fw-bolder text-primary">:</div>
+                          </div>
+                          <div class="text-center">
+                            <div class="fs-1 fw-bolder text-primary" data-minutes="">13</div>
+                            <div class="heading-xxs text-muted">Minutes</div>
+                          </div>
+                          <div class="px-1 px-md-4">
+                            <div class="fs-2 fw-bolder text-primary">:</div>
+                          </div>
+                          <div class="text-center">
+                            <div class="fs-1 fw-bolder text-primary" data-seconds="">41</div>
+                            <div class="heading-xxs text-muted">Seconds</div>
+                          </div>
+                        </div>
+            
+                        <!-- Button -->
+                        <a class="btn btn-dark" href="shop.html">
+                          Shop Now &#8594;
+                        </a>
+            
+                      </div>
+                    </div>
+                  </div>
+                </section>
+           <!-- headings -->
+           <div class="container">
+           <div class="col-12 col-md-10 col-lg-8 col-xl-6 text-center tc">
+
+            <!-- Preheading -->
+            <h6 class="heading-xxs mb-3 text-gray-400">
+              What buyers say
+            </h6>
+
+            <!-- Heading -->
+            <h2 class="mb-10">Latest buyers Reviews</h2>
+
+          </div>
+        </div>
+        <!-- Images -->
+        <div class="container">
+            <img src="/imgs/c5.JPG" alt=""><br>
+            <img src="/imgs/c6.JPG" alt="">
+        </div>
+  <div class="">
+    <img src="/imgs/c7.JPG" alt="">
+
+  </div>
+              <!-- Foooter -->
+              <div class="container">
+                <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top ">
+                  <div class="col mb-3">
+                    <!-- <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none"> -->
+                      <p id="p">ShoppsYourOwn.</p>
+                      <p class="text-muted">copyright © 2023</p>
+                      <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+                    </a>
+                  </div>
+              
+                  <div class="col mb-3">
+              
+                  </div>
+              
+                  <div class="col mb-3">
+                    <h5>Support us</h5>
+                    <ul class="nav flex-column">
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">contact-us</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Shipping & Returns</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Siza Guid</a></li>
+                    </ul>
+                  </div>
+              
+                  <div class="col mb-3">
+                    <h5>Shop</h5>
+                    <ul class="nav flex-column">
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">women’s Shopping</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Men's Shopping</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Kid's Shopping</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Discunts</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Gift Pack</a></li>
+                    </ul>
+                  </div>
+              
+                  <div class="col mb-3">
+                    <h5>Company</h5>
+                    <ul class="nav flex-column">
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Our Story</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Careers</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Terms & Conditions</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Privacy & Cookie policy</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                    </ul>
+                  </div>
+                  
+                </footer>
+              </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
